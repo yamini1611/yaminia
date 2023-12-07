@@ -1,25 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
+import '../components/Styles/Navbar.css'
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen relative">
+    <main className="w-screen h-screen  relative">
       <div
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
-            <span className="text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-cyan-500 ps-2">
-              Web Developement
-            </span>
+        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col text-center gap-4 z-[10] max-w-[1150px]">
+          <h1 className="text-[45px] text-white font-semibold " id="name">
+             Building your dreams<p className="text-transparent text-[55px] bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ps-2">
+             fueled by code and passion.</p>
           </h1>
-          <p className="text-gray-200 hidden md:block">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
-            aliquid?
-          </p>
-          <div className="flex-col md:flex-row hidden md:flex gap-5">
+
+          <h1 className=" text-[25px] text-gray-100 hidden md:block px-3" id="name">
+            Full-stack wizard, here to make your vision happen.
+          </h1>
+          <div className="flex-col text-center  md:flex-row hidden md:flex gap-5 ">
             <Link
               href="/my-skills"
               className="rounded-[20px] group relative bg-blue-500 hover-bg-blue-400 px-5 py-3 text-lg text-white-max-[w-200px] "
@@ -43,26 +42,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-10 z-[20] right-5  flex-col md:hidden gap-5 ">
-        <Link
-          href="/my-skills"
-          className="rounded-[20px] group relative bg-blue-500 hover-bg-blue-400 px-5 py-3 text-lg text-white-max-[w-200px] "
-        >
-          Learn More
-        </Link>
-        <Link
-          href="/my-projects"
-          className="rounded-[20px] group relative bg-trasparent px-5 border border-white py-3 text-lg text-white max-w-[200px]"
-        >
-          My Projects
-        </Link>
-        <Link
-          href="/contact-me"
-          className="rounded-[20px] group relative bg-trasparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
-        >
-          Contact Me
-        </Link>
-      </div>
+    
       <div className=" absolute right-0 bottom-0 z-[10]">
         <Image
           src="/horse.png"
