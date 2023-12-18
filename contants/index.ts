@@ -78,15 +78,27 @@ export const SkillData = [
 
 export const Socials = [
   {
+    name:"AboutMe",
+    src:"/i-icon.png",
+    Link:"AboutMe",
+    width: 42,
+    height: 42
+  },
+  {
     name: "LinkedIn",
     src: "/linkedin.webp",
-    Link:"https://www.linkedin.com/in/yamini-priya-0a2b64227"
+    Link:"https://www.linkedin.com/in/yamini-priya-0a2b64227",
+    width: 55,
+    height: 55
   },
   {
     name: "Git Hub",
     src: "/github.png",
-    Link:"https://github.com/yamini1611"
-  }
+    Link:"https://github.com/yamini1611",
+    width: 35,
+    height: 35
+   }
+  
 ];
 export const Projects = [
   {

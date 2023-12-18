@@ -11,13 +11,13 @@ const Navbar = () => {
           <Image
             src="/image.png"
             alt="horselogo"
-            style={{backgroundColor:"white"}}
-            height={80}
-            width={80}
+            style={{backgroundColor:"white" }}
+            height={60}
+            width={60}
             className="w-full h-full object-contain rounded-full "
           />
         </div>
-        <h1 className="text-white text-[25px] font-semibold" id="name">
+        <h1 className="text-white text-[25px] font-semibold mt-2" id="name">
           Yamini{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r  from-purple-500 to-cyan-500 ps-2">
             {" "}
@@ -30,8 +30,9 @@ const Navbar = () => {
             <Link key={social.name} href={social.Link}><Image
               src={social.src}
               alt={social.name}
-              width={42}
-              height={38}
+              width={social.width}
+              height={social.height}
+             style={{marginTop:5}}
             ></Image></Link>
         ))}
       </div>
