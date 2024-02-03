@@ -51,7 +51,7 @@ export default function Home() {
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
         <div className="pl-6 md:pl-20 lg:pl-40 pb-6 md:pb-20 flex flex-col text-center gap-4 z-10 max-w-screen-xl mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-semibold leading-tight" id="name">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl text-white font-semibold leading-tight" >
             Building your dreams
             <p className="text-transparent text-6xl md:text-7xl lg:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 ps-2 pt-4">
               fueled by code and passion.
