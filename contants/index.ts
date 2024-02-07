@@ -45,14 +45,14 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Next js 13",
+    name: "Next js 14",
     Image: "/next.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Framer Motion",
-    Image: "/framer.png",
+    name: "SQL Server",
+    Image: "/SQL.png",
     width: 80,
     height: 80,
   },
@@ -67,13 +67,8 @@ export const SkillData = [
     Image: "/node-js.png",
     width: 80,
     height: 80,
-  },
-  {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
+  }
+  
 ];
 
 export const Socials = [
